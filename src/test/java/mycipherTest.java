@@ -25,5 +25,7 @@ public class mycipherTest {
 
     @Test
     public void divide() {
+        int result = cipher.divide(10,2);
+        assertEquals(5, result);
     }
 }
