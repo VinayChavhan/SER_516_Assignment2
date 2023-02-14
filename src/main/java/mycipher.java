@@ -8,7 +8,7 @@ public class mycipher {
     }
     public int subtract(int a, int b)
     {
-        return a-b;
+        return a+b;
     }
     public int multiply(int a, int b)
     {
