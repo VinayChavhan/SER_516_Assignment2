@@ -13,6 +13,8 @@ public class mycipherTest {
 
     @Test
     public void subtract() {
+        int result = cipher.add(4,2);
+        assertEquals(5, result);
     }
 
     @Test
