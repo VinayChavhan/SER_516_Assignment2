@@ -19,6 +19,8 @@ public class mycipherTest {
 
     @Test
     public void multiply() {
+        int result = cipher.multiply(4,2);
+        assertEquals(8, result);
     }
 
     @Test
